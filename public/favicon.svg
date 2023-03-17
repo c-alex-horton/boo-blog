@@ -1,13 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1.23029,0,0,1.23029,-4.14519,-4.55487)">
+        <path d="M28.247,14.486L28.247,30.071C28.247,30.515 28.071,30.941 27.757,31.255C27.68,31.332 23.055,33.456 18.277,32.025C14.365,30.853 12.907,30.449 9.161,31.746C8.383,31.746 7.753,31.115 7.753,30.337L7.753,14.45C7.753,11.746 8.827,9.153 10.739,7.241C12.651,5.329 15.245,4.254 17.949,4.254L18.016,4.254C23.666,4.254 28.247,8.835 28.247,14.486ZM23.862,13.326L19.748,13.326C19.738,13.41 19.733,13.495 19.733,13.582C19.733,14.726 20.661,15.655 21.805,15.655C22.949,15.655 23.878,14.726 23.878,13.582C23.878,13.495 23.873,13.41 23.862,13.326ZM15.746,13.25L11.632,13.25C11.621,13.334 11.616,13.42 11.616,13.507C11.616,14.651 12.545,15.58 13.689,15.58C14.833,15.58 15.761,14.651 15.761,13.507C15.761,13.42 15.756,13.334 15.746,13.25Z" style="fill:rgb(226,0,203);stroke:black;stroke-width:0.53px;"/>
+    </g>
 </svg>
