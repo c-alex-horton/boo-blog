@@ -1,0 +1,18 @@
+---
+const {image} = Astro.props
+const {alt} = Astro.props
+const {caption} = Astro.props
+---
+
+
+<figure>
+    <img src={image} alt={alt}>
+    <figcaption>{caption}</figcaption>
+</figure>
+
+<style>
+    figcaption {
+        text-align: center;
+        font-style: italic;
+    }
+</style>
