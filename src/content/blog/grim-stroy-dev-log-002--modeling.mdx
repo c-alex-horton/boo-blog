@@ -1,0 +1,73 @@
+---
+title: 'GrimStory: Dev Log 002 - Modeling'
+description: 'Modeling'
+pubDate: 'May 21 2023'
+heroImage: '/src/images/devlog2/Gomo.jpg'
+---
+
+{/* Components */}
+import BlogImage from '../../components/BlogImage.astro'
+
+{/* Assets */}
+import BadModels from '../../images/devlog2/BadModels.jpg'
+import Gomo from '../../images/devlog2/Gomo.jpg'
+import Donut from '../../images/devlog2/donut.jpg'
+import headSculpt from '../../images/devlog2/HeadSculpt01.jpg'
+
+## Chugging along
+
+Well, things are moving along, slowly but surely. I've been planning out the future of this project, contacting friends and coworkers looking for artists and programmers. With any luck, Alpha will start in June.
+
+The Prototype looks good, and we have the overall idea what systems need to be added. For as large as this project is, its rather simple and barebones. As I've stated before, the original Fable is largely inspiring this game, so we're building off that concept. As this game is from the early 2000's, theres nothing too complex that we've run into so far. I think ultimately the biggest hurdle is the Morality system.
+
+## Modeling
+
+<BlogImage
+  image={BadModels}
+  alt='Bad Models and sketches for player'
+  caption='NGL not my best work...'
+/>
+
+Okay, so as you can see above, my first attempt did not go that well. I have not modeled since 2019, and I thought I would just remember the basics of blender and modeling despite the fact I havent touched it in four years and there has been a major version release since then. The results in game came to... well this. My fiancé named him Gomo.
+
+<BlogImage
+  image={Gomo}
+  alt='A poorly made player model'
+  caption='Oh look, my sleep paralysis demon'
+/>
+
+So I guess it's back to the basics and doing blender tutorials again. And where else to start but the most essential tutorial for anyone starting blender? That's right, <a href="https://www.youtube.com/watch?v=nIoXOplUvAw&list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD" target='_blank'>Blender Guru's Donut Tutorial.</a> Seriously if you want to get started with blender, this is hands down the best tutorial for beginners.
+
+Anyway, after a few hours, I had my donut and I was back in the swing of things.
+
+<BlogImage
+  image={Donut}
+  alt='3D render of 2 donuts'
+  caption='I wonder how many 3d donuts there are now in the world?'
+/>
+
+Now, with that done, time to do more research into player models. My first mistake with Gomo, was starting off Low-Poly box-modeling and then deciding to add details later. This didn't work out to well and the Topography and edge-flow ended up all kinds of out-of-whack. So, this time I decided to do it the longer, but more modern way. I could still do Low Poly and try for that aesthetic. That would certainly be easier, and make for faster development. However, I figure if I'm already paying artists for character design, I might as well try to make some higher quality models. Plus, it's something I've been wanting to get back into.
+
+Now there's several different workflows for this, but here's how I'm planning it.
+
+- High Poly Sculpt of the Model
+
+- Bake Texture from High Poly Model
+
+- Retopograph Model to a Low-Poly mesh
+
+- Add Baked Texture to Model
+
+Now there are different steps in this process, but at a high level this is more or less accurate, but the more I go through the process the more I'll know how it's done.
+
+My first step was to get ZBrush, which after looking at the price tag, I noped out of that real quick. I considered just using Blender for sculpting as well, but ended up going for Nomad Sculpt on iPad.
+
+I was actually quite impressed with Nomad. It's nowhere near as feature rich as ZBrush and that's still on my list to get whenever I decide to sell a kidney, but for basic sculpting it actually works fairly well. After learning the interface I was able to make this little guy.
+
+<BlogImage
+  image={headSculpt}
+  alt='3D render of 2 donuts'
+  caption='What have we ear?'
+/>
+
+Still lots to do, but progress is progress, and I can't wait to show what else is in the works!
